@@ -49,13 +49,20 @@ table {
 /* custom styles  */
 
 body {
+	
     font-family: 'Poppins', sans-serif;
 }
+a{
+	color: red;
+}
+
+
 * {
 	box-sizing: border-box;
 }
 
 /* general styles  */
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -117,6 +124,7 @@ h4 {
 	background-size:contain ;
 }
 
+
 /* header section  */
 .header-section1 {
 	background-color:#012d5b;
@@ -138,6 +146,7 @@ h4 {
 	margin-left: 10px;
 	font-size: 15px;
 }
+
 /* header section2  */
 .header-section2 {
 	padding: 20px 0px;
@@ -160,6 +169,9 @@ h4 {
 	color: #06325e;
 	font-size: 15px;
 	font-weight: 600;
+}
+.header-section2 nav a:hover{
+	color: red;
 }
 /* home  hero */
 .home-hero{
